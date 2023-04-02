@@ -1,0 +1,40 @@
+/* Set the background color to libadwaita's gray */
+body {
+	background-color: hsl(0, 0%, 20%);
+}
+
+/* Define a font face for Code Mono */
+@font-face {
+	font-family: "Code Mono";
+	src: url("https://dtinth.github.io/comic-mono-font/ComicMono.ttf") format("truetype");
+}
+
+/* Set the font to Code Mono */
+body {
+	font-family: "Code Mono", monospace;
+    color: hsl(0, 0%, 90%);
+}
+
+.header-bar {
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 90%);
+    padding: 10px;
+    text-align: center;
+}
+
+.links-row {
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .links-row a {
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+    margin: 0 10px;
+    flex: 1;
+    text-align: center;
+  }
+  
