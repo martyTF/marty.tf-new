@@ -22,6 +22,10 @@ body {
     text-align: center;
 }
 
+.header-bar a:visited {
+  color: hsl(0, 0%, 90%);
+}
+
 .links-row {
     background-color: hsl(0, 0%, 10%);
     display: flex;
@@ -38,3 +42,6 @@ body {
     text-align: center;
   }
   
+  .links-row a:visited {
+    color: hsl(0, 0%, 90%);
+  }
