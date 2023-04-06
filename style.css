@@ -56,3 +56,11 @@ body {
   .links-row a:visited {
     color: hsl(0, 0%, 90%);
   }
+
+  .body-text {
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+    margin: 0 10px;
+    flex: 1;
+    text-align: center;
+  }
