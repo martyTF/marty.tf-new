@@ -93,3 +93,12 @@ body {
   .services-box ul li a:hover {
     background-color: #ddd;
   }
+  .footnote {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .footnote a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+  }
