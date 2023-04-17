@@ -1,0 +1,67 @@
+body {
+	background-color: hsl(0, 0%, 20%);
+}
+
+@font-face {
+	font-family: "Code Mono";
+	src: url("https://dtinth.github.io/comic-mono-font/ComicMono.ttf") format("truetype");
+}
+
+body {
+	font-family: "Code Mono", monospace;
+    color: hsl(0, 0%, 90%);
+}
+/* Header Bar */ 
+  .header-bar {
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-bar h1 {
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+    font-size: 2em;
+  }
+
+  .header-bar a {
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+  }
+
+  .header-bar a:visited {
+    color: hsl(0, 0%, 90%);
+  }
+
+  .header-links-row {
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .header-links-row a {
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+    margin: 0 10px;
+    flex: 1;
+    text-align: center;
+  }
+  
+.header-links-row a:visited {
+    color: hsl(0, 0%, 90%);
+  }
+
+/* Footnote */
+.footnote {
+    background-color: hsl(0, 0%, 10%);
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+.footnote a {
+    color: hsl(0, 0%, 80%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+  }

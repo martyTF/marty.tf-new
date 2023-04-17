@@ -1,0 +1,40 @@
+  .services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto
+  }
+  .services-box {
+    flex-basis: calc(45% - 1rem);
+    padding: 1rem;
+    background-color: hsl(0, 0%, 10%);
+    border-radius: 5px;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .services-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .services-box ul li {
+    margin: auto;
+  }
+  .services-box ul li a {
+    display: block;
+    padding: 0.5rem;
+    color: hsl(0, 0%, 90%);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .services-box ul li a:hover {
+    background-color: hsl(0, 0%, 50%);
+  }
+  
+  .flex { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+       margin:auto
+}
