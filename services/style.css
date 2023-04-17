@@ -6,11 +6,11 @@
   }
   .services-box {
     flex-basis: calc(45% - 1rem);
-    padding: 1rem;
+    padding: 20px;
     background-color: hsl(0, 0%, 10%);
     border-radius: 5px;
     box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
-    margin-bottom: 1rem;
+    margin: 20px;
     text-align: center;
   }
   .services-box ul {
@@ -23,7 +23,7 @@
   }
   .services-box ul li a {
     display: block;
-    padding: 0.5rem;
+    padding: 20px;
     color: hsl(0, 0%, 90%);
     text-decoration: none;
     transition: background-color 0.3s ease;

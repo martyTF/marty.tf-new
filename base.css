@@ -17,7 +17,7 @@ body {
     padding: 1rem;
     background-color: hsl(0, 0%, 20%);
     border-radius: 5px;
-    margin-bottom: 1rem;
+    margin:20px;
     text-align: center;
   }
 
@@ -38,11 +38,11 @@ body {
 
   .header-links-row {
     flex-basis: calc(45% - 1rem);
-    padding: 1rem;
+    padding:20px;
     background-color: hsl(0, 0%, 10%);
     border-radius: 5px;
     box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
-    margin-bottom: 1rem;
+    margin:20px;
     text-align: center;
   }
   
@@ -61,11 +61,11 @@ body {
 /* Footnote */
 .footnote {
     flex-basis: calc(45% - 1rem);
-    padding: 1rem;
+    padding: 20px;
     background-color: hsl(0, 0%, 10%);
     border-radius: 5px;
     box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
-    margin-bottom: 1rem;
+    margin:20px;
     text-align: center;
   }
 .footnote a {
