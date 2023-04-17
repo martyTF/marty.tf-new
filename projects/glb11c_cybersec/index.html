@@ -6,8 +6,29 @@
 	<link rel="stylesheet" href="https://marty.tf/style.css">
   <style>
     .box {
-      display: inline;
-      padding: 5px 10px;
+      flex-basis: calc(45% - 1rem);
+      padding: 1rem;
+      background-color: hsl(0, 0%, 10%);
+      border-radius: 5px;
+      box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .box ul {
+      list-style: none;
+    }
+    .box ul li {
+      margin: auto;
+    }
+    .box ul li a {
+      padding: 20px;
+      display: block;
+      color: hsl(0, 0%, 90%);
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .box ul li a:hover {
+      background-color: hsl(0, 0%, 50%);
     }
   </style>
   </head>
