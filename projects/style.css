@@ -1,25 +1,26 @@
 .box {
-    flex-basis: calc(45% - 1rem);
-    padding: 1rem;
-    background-color: hsl(0, 0%, 10%);
-    border-radius: 5px;
-    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  .box ul {
-    list-style: none;
-  }
-  .box ul li {
-    margin: auto;
-    padding-top: 40px;
-  }
-  .box ul li a {
-    display: block;
-    color: hsl(0, 0%, 90%);
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .box ul li a:hover {
-    background-color: hsl(0, 0%, 50%);
-  }
+  flex-basis:auto;
+  padding: 20px;
+  background-color: hsl(0, 0%, 10%);
+  border-radius: 5px;
+  box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
+  margin: 20px;
+  text-align: center;
+}
+.box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.box ul li {
+  padding-top: 40px;
+}
+.box ul li a {
+  display: block;
+  color: hsl(0, 0%, 90%);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.box ul li a:hover {
+  background-color: hsl(0, 0%, 50%);
+}
