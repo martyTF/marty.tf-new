@@ -1,5 +1,5 @@
 body {
-	background-color: hsl(0, 0%, 20%);
+	background-color: #28211c;
 }
 
 @font-face {
@@ -9,45 +9,44 @@ body {
 
 body {
 	font-family: "Code Mono", monospace;
-    color: hsl(0, 0%, 90%);
+    color: #cfcdc9;
 }
 /* Header Bar */ 
   .header-bar {
     flex-basis: calc(45% - 1rem);
     padding: 1rem;
-    background-color: hsl(0, 0%, 20%);
+    background-color: #28211c;
     border-radius: 5px;
     margin:20px;
     text-align: center;
   }
 
   .header-bar h1 {
-    color: hsl(0, 0%, 100%);
+    color: #cfcdc9;
     margin: 0;
     font-size: 2em;
   }
 
   .header-bar a {
-    color: hsl(0, 0%, 90%);
+    color: #cfcdc9;
     text-decoration: none;
   }
 
   .header-bar a:visited {
-    color: hsl(0, 0%, 90%);
+    color: #cfcdc9;
   }
 
   .header-links-row {
     flex-basis: calc(45% - 1rem);
     padding:20px;
-    background-color: hsl(0, 0%, 10%);
+    background-color: #28211c;
     border-radius: 5px;
-    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
     margin:20px;
     text-align: center;
   }
   
   .header-links-row a {
-    color: hsl(0, 0%, 90%);
+    color: #cfcdc9;
     text-decoration: none;
     margin: 0 10px;
     flex: 1;
@@ -55,21 +54,20 @@ body {
   }
   
 .header-links-row a:visited {
-    color: hsl(0, 0%, 90%);
+    color: #cfcdc9;
   }
 
 /* Footnote */
 .footnote {
     flex-basis: calc(45% - 1rem);
     padding: 20px;
-    background-color: hsl(0, 0%, 10%);
+    background-color: #28211c;
     border-radius: 5px;
-    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
     margin:20px;
     text-align: center;
   }
 .footnote a {
-    color: hsl(0, 0%, 80%);
+    color: #cfcdc9;
     text-decoration: none;
-    border-bottom: 1px solid hsl(0, 0%, 80%);
+    border-bottom: 1px solid #cfcdc9;
   }
