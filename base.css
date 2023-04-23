@@ -1,50 +1,61 @@
-body {
-	background-color: #28211c;
-}
-
 @font-face {
 	font-family: "Code Mono";
 	src: url("https://dtinth.github.io/comic-mono-font/ComicMono.ttf") format("truetype");
 }
 
-body {
+* {
 	font-family: "Code Mono", monospace;
-    color: #cfcdc9;
+  color: #cfcdc9;
 }
-/* Header Bar */ 
+
+body {
+  background-color: #28211c;
+}
+
+
+
+
+
+
+/* box */
+
+  .box-wrapper {
+    flex:auto;
+  }
+
+  .box {
+    color: #cfcdc9;
+    text-align: center;
+
+    background-color: #28211c;
+    border-style: solid;
+    border-color: #cc694b;
+    border-radius: 20px;
+
+    margin: 20px;
+    padding: 20px;
+
+    flex-basis: calc(45% - 20px);
+  }
+  .box a {
+    color: #cfcdc9;
+  }
+  .box a:visited {
+    color: #cfcdc9;
+  }
+
+
+
+/* header bar */ 
+
   .header-bar {
-    flex-basis: calc(45% - 1rem);
-    padding: 1rem;
-    background-color: #28211c;
-    border-radius: 5px;
-    margin:20px;
-    text-align: center;
+    padding: 5px;
   }
-
-  .header-bar h1 {
-    color: #cfcdc9;
-    margin: 0;
-    font-size: 2em;
-  }
-
   .header-bar a {
-    color: #cfcdc9;
     text-decoration: none;
+    padding: 5px;
   }
 
-  .header-bar a:visited {
-    color: #cfcdc9;
-  }
-
-  .header-links-row {
-    flex-basis: calc(45% - 1rem);
-    padding:20px;
-    background-color: #28211c;
-    border-radius: 5px;
-    margin:20px;
-    text-align: center;
-  }
-  
   .header-links-row a {
     color: #cfcdc9;
     text-decoration: none;
@@ -57,17 +68,16 @@ body {
     color: #cfcdc9;
   }
 
+
+
+
+
+
 /* Footnote */
 .footnote {
-    flex-basis: calc(45% - 1rem);
-    padding: 20px;
-    background-color: #28211c;
-    border-radius: 5px;
-    margin:20px;
     text-align: center;
   }
 .footnote a {
     color: #cfcdc9;
     text-decoration: none;
-    border-bottom: 1px solid #cfcdc9;
   }
