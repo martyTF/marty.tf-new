@@ -21,7 +21,6 @@ body {
 
   .box {
     color: #cfcdc9;
-    text-align: center;
 
     background-color: #28211c;
     border-style: solid;
@@ -46,24 +45,27 @@ body {
 
   .header-bar {
     padding: 5px;
+    text-align: center;
   }
   
   .header-bar a {
     text-decoration: none;
-    padding: 5px;
+    padding: 5px;;
   }
 
+  .header-links-row
+  {
+    
+    text-align: center;
+  }
   .header-links-row a {
     color: #cfcdc9;
     text-decoration: none;
-    margin: 0 10px;
-    flex: 1;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
+    display:inline-flex;
+    padding: 10px;
     border: solid;
     border-radius: 10px;
-    border-color: #28211c;
+    border-color:#28211c;
     text-decoration: none;
     transition: background-color 0.3s ease;
   }
