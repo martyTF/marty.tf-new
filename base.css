@@ -15,6 +15,9 @@ body {
 }
 
 /* box */
+  .box-wrapper-flex {
+    display: flex;
+  }
 
   .box {
     color: #cfcdc9;
