@@ -1,3 +1,5 @@
+/* root */
+
 @font-face {
 	font-family: "Code Mono";
 	src: url("https://dtinth.github.io/comic-mono-font/ComicMono.ttf") format("truetype");
@@ -12,16 +14,7 @@ body {
   background-color: #28211c;
 }
 
-
-
-
-
-
 /* box */
-
-  .box-wrapper {
-    flex:auto;
-  }
 
   .box {
     color: #cfcdc9;
@@ -37,20 +30,21 @@ body {
 
     flex-basis: calc(45% - 20px);
   }
+
   .box a {
     color: #cfcdc9;
   }
+
   .box a:visited {
     color: #cfcdc9;
   }
-
-
-
+  
 /* header bar */ 
 
   .header-bar {
     padding: 5px;
   }
+  
   .header-bar a {
     text-decoration: none;
     padding: 5px;
@@ -62,22 +56,41 @@ body {
     margin: 0 10px;
     flex: 1;
     text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #28211c;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
   
+.header-links-row a:hover {
+  background-color: #cc694b;
+}
+
 .header-links-row a:visited {
     color: #cfcdc9;
   }
 
 
 
-
-
-
-/* Footnote */
+/* footnote */
 .footnote {
     text-align: center;
+    padding: 5px;
   }
 .footnote a {
     color: #cfcdc9;
     text-decoration: none;
+    padding: 5px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #28211c;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
+
+.footnote a:hover {
+  background-color: #cc694b;
+}

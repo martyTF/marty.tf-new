@@ -1,40 +1,28 @@
-  .services-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin:auto
-  }
-  .services-box {
-    flex-basis: calc(45% - 1rem);
-    padding: 20px;
-    background-color: hsl(0, 0%, 10%);
-    border-radius: 5px;
-    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
-    margin: 20px;
-    text-align: center;
-  }
-  .services-box ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .services-box ul li {
-    margin: auto;
-  }
-  .services-box ul li a {
-    display: block;
-    padding: 20px;
-    color: hsl(0, 0%, 90%);
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .services-box ul li a:hover {
-    background-color: hsl(0, 0%, 50%);
-  }
-  
-  .flex { 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-       margin:auto
+.services {
+  display: flex;
+}
+
+.services ul {
+  margin: 20px;
+  padding: 20px;
+  display: inline;
+  text-align: justify;
+}
+
+.services ul li {
+  padding:10px;
+}
+
+.services ul a {
+  margin: 5px;
+  padding: 5px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #28211c;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.services ul li a:hover {
+  background-color: #cc694b;
 }
