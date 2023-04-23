@@ -1,31 +1,30 @@
-.box-wrapper {
+.cybersec {
   display: flex;
-  flex-wrap:inherit;
-  justify-content:space-evenly;
+  overflow:scroll;
 }
-.box {
-    flex-basis:auto;
-    padding: 20px;
-    background-color: hsl(0, 0%, 10%);
-    border-radius: 5px;
-    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.302);
-    margin: 20px;
-    text-align: center;
-  }
-  .box ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .box ul li {
-    padding-top: 40px;
-  }
-  .box ul li a {
-    display: block;
-    color: hsl(0, 0%, 90%);
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  .box ul li a:hover {
-    background-color: hsl(0, 0%, 50%);
-  }
+
+.cybersec ul {
+  margin: 20px;
+  padding: 20px;
+  display:inline;
+  text-align: left;
+}
+
+.cybersec ul li {
+  padding: 10px;
+  display: flex;
+}
+
+.cybersec ul a {
+  margin: 5px;
+  padding: 5px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #28211c;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cybersec ul li a:hover {
+  background-color: #cc694b;
+}
