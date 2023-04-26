@@ -17,7 +17,7 @@ body {
 
 /* box */
 
-@media only screen and (max-width: 814px) and (max-width: 12cm) {
+@media only screen and (max-width: 21cm) {
   .box-wrapper {
     display: block;
   }
@@ -26,7 +26,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 815px) and (min-width: 12.01cm) {
+@media only screen and (min-width: 21.01cm) {
   .box-wrapper {
     display: flex;
     justify-content:space-around;
