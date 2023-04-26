@@ -1,15 +1,6 @@
 @media only screen and (max-width: 814px) {
-    .contact {
-        display: block;
-    }
-    #contactbox {
-        max-width: none;
-        min-width: min-content;
-        padding: 0px;
-    }
-    #contactbox .box {
-        margin: 15px 10px;
-    }
+    
+
     #logobox {
         max-width: none;
     }
@@ -21,21 +12,13 @@
 }
 
 @media only screen and (min-width: 815px) {
-    .contact {
-        overflow: scroll;
-        justify-content:space-around;
-    }
-    #contactbox {
-        max-width: min-content;
-        min-width: min-content;
     
-    }
     #logobox {
-        max-width: 485px;
+        max-width: 35vw;
     }
     .logo {
         max-width: 100%;
-        max-height: 30rem;
+        max-height: 40vw;
         min-width: 200px;
         border-radius: 15px;
     }

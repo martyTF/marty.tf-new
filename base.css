@@ -7,95 +7,82 @@
 
 * {
 	font-family: "Code Mono", monospace;
-  color: #cfcdc9;
+  color: #f8f8f2	;
 }
 
+
+
+
 body {
-  background-color: #28211c;
+  background-color: #282a36;
 }
 
 /* box */
-  .box-wrapper-flex {
-    display: flex;
+
+@media only screen and (max-width: 814px) {
+  .box-wrapper {
+    display: block;
   }
+  .headersplit {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 815px) {
+  .box-wrapper {
+    display: flex;
+    justify-content:space-around;
+  }
+  .headersplit {
+    display: none;
+  }
+}
+
 
   .box {
-    color: #cfcdc9;
-
-    background-color: #28211c;
+    color: #f8f8f2;
+    text-align: center;
+    background-color: #44475a;
     border-style: solid;
-    border-color: #cc694b;
-    border-radius: 20px;
-
+    border-color: #6272a4;
+    border-radius: 5px;
     margin: 20px;
     padding: 20px;
-
-    flex-basis: calc(45% - 20px);
+    flex-basis: calc(100% - 20px);
   }
 
   .box a {
-    color: #cfcdc9;
+    color: #f8f8f2;
+    text-decoration: none;
+    display:inline-flex;
+    padding: 5px 0.5vw;
+    margin: 10px 0.2vw;
+    border: solid;
+    border-radius: 10px;
+    border-color:#44475a;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
   }
 
   .box a:visited {
-    color: #cfcdc9;
-  }
-  
-/* header bar */ 
-
-  .header-bar {
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .header-bar a {
-    text-decoration: none;
-    padding: 5px;;
+    color: #f8f8f2;
   }
 
-  .header-links-row
-  {
-    
-    text-align: center;
-  }
-  .header-links-row a {
-    color: #cfcdc9;
-    text-decoration: none;
-    display:inline-flex;
-    padding: 10px;
-    border: solid;
-    border-radius: 10px;
-    border-color:#28211c;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-.header-links-row a:hover {
-  background-color: #cc694b;
-}
-
-.header-links-row a:visited {
-    color: #cfcdc9;
+  .box a:hover {
+    background-color: #6272a4;
   }
 
 
-
-/* footnote */
-.footnote {
-    text-align: center;
-    padding: 5px;
-  }
-.footnote a {
-    color: #cfcdc9;
-    text-decoration: none;
-    padding: 5px;
-    border: solid;
-    border-radius: 10px;
-    border-color: #28211c;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-
-.footnote a:hover {
-  background-color: #cc694b;
-}
+/** Palette	HEX	Color Picker
+Background	#282a36	
+Current Line	#44475a	
+Foreground	#f8f8f2	
+Comment	#6272a4	
+Cyan	#8be9fd	
+Green	#50fa7b	
+Orange	#ffb86c	
+Pink	#ff79c6	
+Purple	#bd93f9	
+Red	#ff5555	
+Yellow	#f1fa8c
+**/
