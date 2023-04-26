@@ -1,4 +1,8 @@
 .search-box input {
     outline: none;
     width: calc(80% - 150px);
+    height: 30px;
+}
+.search-box button {
+    height: 30px;
 }

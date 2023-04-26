@@ -3,6 +3,7 @@
 
   <!-- Head -->
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta charset="UTF-8">
     <title>Marty.TF</title>
     <link rel="stylesheet" href="/base.css">
@@ -35,15 +36,15 @@
     </div>
 
 <!-- Content -->
-
-<div class="box" id="search">
+<div class="box-wrapper">
+<div class="box">
   <form id="search-box" action="https://www.ecosia.org/search" method="get" class="search-box">
     <input autofocus class="box" type="text" name="q" placeholder="Search the web">
-    <button form="search-box" type="submit" class="box">Go</button>
+    <button form="search-box" type="submit" style="display:none">Go</button>
   </form>
   <p>Powered by <a href="https://ecosia.org">Ecosia</a>, the search engine that plants trees.</p>
 </div>
-
+</div>
 
     <!-- Footer -->
     <div class="box-wrapper">
