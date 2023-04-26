@@ -47,7 +47,7 @@ body {
     border-color: #6272a4;
     border-radius: 5px;
     margin: 20px;
-    padding: 20px;
+    padding: 5px 20px;
     flex-basis: calc(100% - 20px);
   }
 
