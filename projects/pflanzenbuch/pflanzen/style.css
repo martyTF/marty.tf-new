@@ -1,0 +1,14 @@
+
+table {
+    width: 100%;
+}
+th {
+    color: #f8f8f2;
+    text-align: center;
+    background-color: #44475a;
+    border-style: solid;
+    border-color: #6272a4;
+    border-radius: 5px;
+    padding: 5px 20px;
+    flex-basis: calc(100% - 20px);
+}

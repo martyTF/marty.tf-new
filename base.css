@@ -19,10 +19,13 @@ body {
 
 @media only screen and (max-width: 860px) {
   .box-wrapper {
-    display: block;
+    display: flexbox;
   }
   .headersplit {
     display: block;
+  }
+  .box {
+    margin: 20px;
   }
 }
 
@@ -34,6 +37,9 @@ body {
   .headersplit {
     display: none;
   }
+  .box {
+    margin: 10px 20px;
+  }
 }
 
 
@@ -44,7 +50,6 @@ body {
     border-style: solid;
     border-color: #6272a4;
     border-radius: 5px;
-    margin: 20px;
     padding: 5px 20px;
     flex-basis: calc(100% - 20px);
   }
