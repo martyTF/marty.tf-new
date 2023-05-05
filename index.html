@@ -14,7 +14,7 @@
   <body>
 
     <!-- Header Bar -->
-    <div class="box-wrapper">
+    <div class="box-wrapper" id="header">
       <div class="box">
         <h1>
           <a href="/">Marty.TF</a>
@@ -23,7 +23,7 @@
     </div>
 
     <!-- Links Row -->
-    <div class="box-wrapper">
+    <div class="box-wrapper" id="linksrow">
       <nav class="box">
         <a href="/services/">Services</a>
         <a href="/about/">About</a>
@@ -36,10 +36,10 @@
     </div>
 
 <!-- Content -->
-<div class="box-wrapper">
+<div class="box-wrapper" id="content">
 <div class="box">
   <form id="search-box" action="https://www.ecosia.org/search" method="get" class="search-box">
-    <input autofocus class="box" type="text" name="q" placeholder="Search the web">
+    <input id="searchbox" class="box" type="text" name="q" placeholder="Search the web">
     <button form="search-box" type="submit" style="display:none">Go</button>
   </form>
   <p>Powered by <a href="https://ecosia.org">Ecosia</a>, the search engine that plants trees.</p>
@@ -47,10 +47,15 @@
 </div>
 
     <!-- Footer -->
-    <div class="box-wrapper">
+    <div class="box-wrapper" id="footnote">
       <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a>
       </div>
     </div>
 
   </body>
 </html>
+
+<script>
+  var content = document.getElementById("searchbox");
+  content.document.autofocus;
+</script>

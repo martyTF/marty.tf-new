@@ -9,6 +9,18 @@ th {
     border-style: solid;
     border-color: #6272a4;
     border-radius: 5px;
-    padding: 5px 20px;
+    margin: 5px;
+    padding: 20px 20px;
     flex-basis: calc(100% - 20px);
+}
+
+
+@media only screen and (max-width: 860px) {
+
+}
+@media only screen and (min-width: 861px) {
+    #habituspic {
+        max-width: max-content;
+        min-width: 300px;
+    }
 }

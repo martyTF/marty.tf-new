@@ -50,9 +50,10 @@ body {
     border-style: solid;
     border-color: #6272a4;
     border-radius: 5px;
-    padding: 5px 20px;
+    padding: 20px;
     flex-basis: calc(100% - 20px);
   }
+
 
   .box a {
     color: #f8f8f2;
@@ -75,10 +76,72 @@ body {
     background-color: #6272a4;
   }
 
-  #footnote {
-    height:auto;
+  #header {
+    animation: appeartop 2s ease;
   }
 
+  #linksrow {
+    animation: appearleft 2s ease;
+  }
+
+  #content {
+    animation: appearright 2s ease;
+  }
+
+  #footnote {
+    animation: appearbottom 2s ease;
+  }
+
+
+  @keyframes appeartop {
+    0% {
+      transform: translateY(-100vw);
+    }
+    25% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes appearbottom {
+    0% {
+      transform: translateY(100vw);
+    }
+    25% {
+      transform: translateY(100vw);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes appearleft {
+    0% {
+      transform: translateX(-100vw);
+    }
+    50% {
+      transform: translateX(-100vw);
+    }
+    75% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes appearright {
+    0% {
+      transform: translateX(100vw);
+    }
+    75% {
+      transform: translateX(100vw);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+  .hidden {
+    display: none;
+  }
 
 /** Palette	HEX	Color Picker
 Background	#282a36	
