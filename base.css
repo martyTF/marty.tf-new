@@ -77,19 +77,19 @@ body {
   }
 
   #header {
-    animation: appeartop 2s ease;
+    animation: appeartop 1s ease;
   }
 
   #linksrow {
-    animation: appearleft 2s ease;
+    animation: appearleft 1s ease;
   }
 
   #content {
-    animation: appearright 2s ease;
+    animation: appearright 1s ease;
   }
 
   #footnote {
-    animation: appearbottom 2s ease;
+    animation: appearbottom 1s ease;
   }
 
 

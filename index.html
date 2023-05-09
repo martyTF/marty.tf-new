@@ -56,6 +56,9 @@
 </html>
 
 <script>
-  var content = document.getElementById("searchbox");
-  content.document.autofocus;
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    document.getElementById('searchbox').focus();
+  }, 1000);
+});
 </script>
