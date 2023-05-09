@@ -1,0 +1,40 @@
+@keyframes appeartop {
+    0% {
+        transform: translateY(-100vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes appearbottom {
+    0% {
+        transform: translateY(100vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes appearleft {
+    0% {
+        transform: translateX(-100vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes appearright {
+    0% {
+        transform: translateX(100vw);
+    }
+
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,22 @@
+#header {
+    animation: appeartop 0.25s ease 0s;
+}
+
+#linksrow {
+    animation: appearleft 0.25s ease 0.25s;
+}
+
+#footnote {
+    animation: appearbottom 1s ease;
+}
+
+#search,
+#services,
+#about,
+#dotfiles,
+#server,
+#projects,
+#contact
+{
+    display: none;
+}

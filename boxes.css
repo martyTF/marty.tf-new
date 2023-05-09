@@ -1,0 +1,81 @@
+@media only screen and (max-width: 860px) {
+    .box-wrapper {
+        display: flexbox;
+    }
+
+    .headersplit {
+        display: block;
+    }
+
+    .box {
+        margin: 20px;
+    }
+
+    #contact_logobox {
+        max-width: none;
+    }
+
+    .contact_logo {
+        min-width: 200px;
+    }
+}
+
+@media only screen and (min-width: 861px) {
+    .box-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .headersplit {
+        display: none;
+    }
+
+    .box {
+        margin: 10px 20px;
+    }
+
+    #contact_logobox {
+        max-width: 35vw;
+    }
+
+    .contact_logo {
+        max-height: 40vw;
+        min-width: 200px;
+    }
+}
+
+.box-shower {
+    display: block;
+}
+
+.box {
+    color: #f8f8f2;
+    text-align: center;
+    background-color: #44475a;
+    border-style: solid;
+    border-color: #6272a4;
+    border-radius: 5px;
+    padding: 20px;
+    flex-basis: calc(100% - 20px);
+}
+
+.box a {
+    color: #f8f8f2;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 5px 0.5vw;
+    margin: 10px 0.2vw;
+    border: solid;
+    border-radius: 10px;
+    border-color: #44475a;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.box a:visited {
+    color: #f8f8f2;
+}
+
+.box a:hover {
+    background-color: #6272a4;
+}
