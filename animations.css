@@ -31,24 +31,20 @@
 @keyframes appearright {
     0% {
         transform: translateX(100vw);
-        display: none;
 
     }
 
     100% {
         transform: translateX(0);
-        display: block;
     }
 }
 
 @keyframes disappearleft {
     0% {
         transform: translateX(0);
-        display: block;
     }
 
     100% {
         transform: translateX(100vw);
-        display: none;
     }
 }

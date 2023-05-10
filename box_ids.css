@@ -16,16 +16,12 @@
 #dotfiles,
 #server,
 #projects,
-#contact .active {
+#contact {
+
     animation: appearright 0.5s ease;
+    display: none;
 }
 
-#search,
-#services,
-#about,
-#dotfiles,
-#server,
-#projects,
-#contact .hidden {
-    animation: disappearleft 0.5s ease;
+#search {
+    display: block;
 }
