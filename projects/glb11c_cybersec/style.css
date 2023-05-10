@@ -1,0 +1,10 @@
+@import "/style.css";
+
+#content {
+    animation: appearright 1s ease;
+}
+
+.box-shower {
+    width: 100%;
+    display: block;
+  }

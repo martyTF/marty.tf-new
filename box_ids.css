@@ -1,13 +1,13 @@
 #header {
-    animation: appeartop 0.25s ease 0s;
+    animation: appeartop 0.5s ease;
 }
 
 #linksrow {
-    animation: appearleft 0.25s ease 0.25s;
+    animation: appearleft 0.5s ease;
 }
 
 #footnote {
-    animation: appearbottom 1s ease;
+    animation: appearbottom 0.5s ease;
 }
 
 #search,
@@ -16,7 +16,16 @@
 #dotfiles,
 #server,
 #projects,
-#contact
-{
-    display: none;
+#contact .active {
+    animation: appearright 0.5s ease;
+}
+
+#search,
+#services,
+#about,
+#dotfiles,
+#server,
+#projects,
+#contact .hidden {
+    animation: disappearleft 0.5s ease;
 }
