@@ -10,6 +10,16 @@
     animation: appearbottom 0.5s ease;
 }
 
+#mainmain {
+    overflow-x: hidden;
+}
+
+#main {
+    width: 1000vw;
+    display: flex;
+    overflow-x: hidden;
+}
+
 #search,
 #services,
 #about,
@@ -17,8 +27,7 @@
 #server,
 #projects,
 #contact {
-
-    animation: appearright 0.5s ease;
+    width: calc(100vw - 15px);
     display: none;
 }
 
