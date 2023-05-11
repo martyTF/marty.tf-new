@@ -8,10 +8,12 @@
 
 #footnote {
     animation: appearbottom 0.5s ease;
+    position: relative;
 }
 
 #mainmain {
-    overflow-x: hidden;
+    min-height: fit-content;
+    
 }
 
 #main {
@@ -28,9 +30,5 @@
 #projects,
 #contact {
     width: calc(100vw - 15px);
-    display: none;
-}
-
-#search {
-    display: block;
+    position: absolute;
 }
