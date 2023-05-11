@@ -24,6 +24,7 @@ function button_search() {
   document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
   document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("search").style.display = "block";
     document.getElementById("services").style.display = "none";
     document.getElementById("about").style.display = "none";
     document.getElementById("dotfiles").style.display = "none";
@@ -44,6 +45,7 @@ function button_services() {
   document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
   document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("services").style.display = "block";
     document.getElementById("search").style.display = "none";
     document.getElementById("about").style.display = "none";
     document.getElementById("dotfiles").style.display = "none";
@@ -63,6 +65,7 @@ function button_about() {
   document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
   document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("about").style.display = "block";
     document.getElementById("search").style.display = "none";
     document.getElementById("services").style.display = "none";
     document.getElementById("dotfiles").style.display = "none";
@@ -82,6 +85,7 @@ function button_dotfiles() {
   document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
   document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("about").style.display = "block";
     document.getElementById("search").style.display = "none";
     document.getElementById("about").style.display = "none";
     document.getElementById("services").style.display = "none";
@@ -101,6 +105,7 @@ function button_server() {
   document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
   document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("server").style.display = "block";
     document.getElementById("search").style.display = "none";
     document.getElementById("about").style.display = "none";
     document.getElementById("dotfiles").style.display = "none";
@@ -120,6 +125,7 @@ function button_projects() {
   document.getElementById("services").style.animation = "disappearleft 0.5s ease";
   document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("projects").style.display = "block";
     document.getElementById("search").style.display = "none";
     document.getElementById("about").style.display = "none";
     document.getElementById("dotfiles").style.display = "none";
@@ -139,6 +145,7 @@ function button_contact() {
   document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
   document.getElementById("services").style.animation = "disappearleft 0.5s ease";
   setTimeout(function () {
+    document.getElementById("contact").style.display = "block";
     document.getElementById("search").style.display = "none";
     document.getElementById("about").style.display = "none";
     document.getElementById("dotfiles").style.display = "none";
