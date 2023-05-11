@@ -29,6 +29,7 @@
 #server,
 #projects,
 #contact {
+    display: none;
     width: calc(100vw - 15px);
     position: absolute;
 }
