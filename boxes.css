@@ -48,33 +48,33 @@
 
 
 .box {
-    color: #f8f8f2;
+    color: #ebdbb2;
     text-align: center;
-    background-color: #44475a;
+    background-color: #282828;
     border-style: solid;
-    border-color: #6272a4;
+    border-color: #689d6a;
     border-radius: 5px;
     padding: 20px;
     flex-basis: calc(100% - 20px);
 }
 
 .box a {
-    color: #f8f8f2;
+    color: #ebdbb2;
     text-decoration: none;
     display: inline-flex;
     padding: 5px 0.5vw;
     margin: 10px 0.2vw;
     border: solid;
     border-radius: 10px;
-    border-color: #44475a;
+    border-color: #282828;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 .box a:visited {
-    color: #f8f8f2;
+    color: #ebdbb2;
 }
 
 .box a:hover {
-    background-color: #6272a4;
+    background-color: #689d6a;
 }

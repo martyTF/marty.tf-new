@@ -19,23 +19,23 @@
 
 .contact_logo {
     max-width: 100%;
-    background-color: #44475a;
+    background-color: #282828;
     border-style: solid;
-    border-color: #6272a4;
+    border-color: #689d6a;
     border-radius: 5px;
     margin: 10px 0px 0px 0px;
 }
 
 /** Palette	HEX	Color Picker
-Background	#282a36	
-Current Line	#44475a	
-Foreground	#f8f8f2	
-Comment	#6272a4	
-Cyan	#8be9fd	
-Green	#50fa7b	
-Orange	#ffb86c	
-Pink	#ff79c6	
+Background	#282828	 (Background)
+Foreground	#ebdbb2	 (Text)
+Blue	#458588	
+Green	#98971a	 
+Cyan	#689d6a	(Border)
+Magenta	#b16286	
 Purple	#bd93f9	
-Red	#ff5555	
-Yellow	#f1fa8c
+Red	#cc241d	
+Yellow	#d79921
+Current Line	#a89984	
+Comment	#928374	
 **/
