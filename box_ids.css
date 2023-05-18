@@ -6,9 +6,8 @@
     animation: appearleft 0.5s ease;
 }
 
-#footnote {
+.footnote {
     animation: appearbottom 0.5s ease;
-    position: relative;
 }
 
 #mainmain {
