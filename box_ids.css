@@ -1,13 +1,13 @@
 #header {
-    animation: appeartop 0.5s ease;
+    animation: appearheader 0.5s ease;
 }
 
 #linksrow {
-    animation: appearleft 0.5s ease;
+    animation: appearlinksrow 0.5s ease;
 }
 
 .footnote {
-    animation: appearbottom 0.5s ease;
+    animation: appearfooter 0.5s ease;
 }
 
 #mainmain {

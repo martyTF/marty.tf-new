@@ -1,4 +1,4 @@
-@keyframes appeartop {
+@keyframes appearheader {
     0% {
         transform: translateY(-100vw);
     }
@@ -8,43 +8,48 @@
     }
 }
 
-@keyframes appearbottom {
+@keyframes appearlinksrow {
+    0% {
+        transform: translateX(-100vw);
+
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes appearcontent {
+    0% {
+        transform: translateX(100vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes disappearcontent {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+@keyframes appearfooter {
     0% {
         transform: translateY(100vw);
+        transform: translateX(-100vw);
     }
 
     100% {
         transform: translateY(0);
-    }
-}
-
-@keyframes appearleft {
-    0% {
-        transform: translateX(-100vw);
-    }
-
-    100% {
         transform: translateX(0);
-    }
-}
-
-@keyframes appearright {
-    0% {
-        transform: translateX(100vw);
-
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes disappearleft {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100vw);
     }
 }

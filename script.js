@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
   document.getElementById("search").style.display = "block";
-  document.getElementById("search").style.animation = "appearright 0.5s ease";
+  document.getElementById("search").style.animation = "appearcontent 0.5s ease";
   document.getElementById("services").style.display = "none";
   document.getElementById("about").style.display = "none";
   document.getElementById("dotfiles").style.display = "none";
@@ -16,13 +16,13 @@ window.addEventListener('load', function () {
 
 function button_search() {
   document.getElementById("search").style.display = "block";
-  document.getElementById("search").style.animation = "appearright 0.5s ease";
-  document.getElementById("services").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("about").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("dotfiles").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("server").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("search").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("services").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("about").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("server").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("projects").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("contact").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("search").style.display = "block";
     document.getElementById("services").style.display = "none";
@@ -37,13 +37,13 @@ function button_search() {
 
 function button_services() {
   document.getElementById("services").style.display = "block";
-  document.getElementById("services").style.animation = "appearright 0.5s ease";
-  document.getElementById("search").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("about").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("dotfiles").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("server").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("services").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("search").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("about").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("server").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("projects").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("contact").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("services").style.display = "block";
     document.getElementById("search").style.display = "none";
@@ -57,13 +57,13 @@ function button_services() {
 
 function button_about() {
   document.getElementById("about").style.display = "block";
-  document.getElementById("about").style.animation = "appearright 0.5s ease";
-  document.getElementById("search").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("services").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("dotfiles").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("server").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("about").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("search").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("services").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("server").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("projects").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("contact").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("about").style.display = "block";
     document.getElementById("search").style.display = "none";
@@ -77,13 +77,13 @@ function button_about() {
 
 function button_dotfiles() {
   document.getElementById("dotfiles").style.display = "block";
-  document.getElementById("dotfiles").style.animation = "appearright 0.5s ease";
-  document.getElementById("search").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("about").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("services").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("server").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("search").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("about").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("services").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("server").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("projects").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("contact").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("about").style.display = "block";
     document.getElementById("search").style.display = "none";
@@ -97,13 +97,13 @@ function button_dotfiles() {
 
 function button_server() {
   document.getElementById("server").style.display = "block";
-  document.getElementById("server").style.animation = "appearright 0.5s ease";
-  document.getElementById("search").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("about").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("dotfiles").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("services").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("server").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("search").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("about").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("services").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("projects").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("contact").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("server").style.display = "block";
     document.getElementById("search").style.display = "none";
@@ -117,13 +117,13 @@ function button_server() {
 
 function button_projects() {
   document.getElementById("projects").style.display = "block";
-  document.getElementById("projects").style.animation = "appearright 0.5s ease";
-  document.getElementById("search").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("about").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("dotfiles").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("server").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("services").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("contact").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("projects").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("search").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("about").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("server").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("services").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("contact").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("projects").style.display = "block";
     document.getElementById("search").style.display = "none";
@@ -137,13 +137,13 @@ function button_projects() {
 
 function button_contact() {
   document.getElementById("contact").style.display = "block";
-  document.getElementById("contact").style.animation = "appearright 0.5s ease";
-  document.getElementById("search").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("about").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("dotfiles").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("server").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("projects").style.animation = "disappearleft 0.5s ease";
-  document.getElementById("services").style.animation = "disappearleft 0.5s ease";
+  document.getElementById("contact").style.animation = "appearcontent 0.5s ease";
+  document.getElementById("search").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("about").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("dotfiles").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("server").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("projects").style.animation = "disappearcontent 0.5s ease";
+  document.getElementById("services").style.animation = "disappearcontent 0.5s ease";
   setTimeout(function () {
     document.getElementById("contact").style.display = "block";
     document.getElementById("search").style.display = "none";
