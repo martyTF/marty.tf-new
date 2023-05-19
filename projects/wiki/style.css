@@ -1,0 +1,68 @@
+.footnote-wiki {
+    animation: appearfooter-wiki 0.5s ease;
+}
+
+@keyframes appearfooter-wiki {
+    0% {
+        transform: translateY(100vw);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .box-wrapper-wiki {
+        display: block;
+    }
+
+    .box {
+        margin: 20px;
+    }
+
+    #navbar-wiki {
+        position: absolute;
+        display: none;
+        margin: 30px;
+    }
+    #content-wiki {
+        width: calc(100vw - 102px);
+    }
+    #navbar-button {
+        display: block;
+    }
+
+    #navbar-button-close {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 861px) {
+    .box-wrapper-wiki {
+        display:flex;
+        justify-content:safe;
+    }
+
+    .box {
+        margin: 10px 20px;
+    }
+
+    #content-wiki {
+        width: calc(100vw - 251px);
+    }
+    #navbar-wiki {
+        position: relative;
+        display: block;
+        max-width: 100px;
+    }
+
+    #navbar-button {
+        display: none;
+    }
+
+    #navbar-button-close {
+        display: none;
+    }
+}
