@@ -44,12 +44,10 @@
 
 @keyframes appearfooter {
     0% {
-        transform: translateY(100vw);
-        transform: translateX(-100vw);
+        transform: translate(-100vw, 100vw);
     }
 
     100% {
-        transform: translateY(0);
-        transform: translateX(0);
+        transform: translate(0, 0);
     }
 }
