@@ -6,19 +6,22 @@
     animation: appearlinksrow 0.5s ease;
 }
 
+<<<<<<< HEAD
 .footnote {
     animation: appearfooter 0.5s ease;
+=======
+#footnote {
+    animation: appearbottom 0.5s ease;
+>>>>>>> 467b57f (various fixes)
 }
 
-#mainmain {
-    min-height: fit-content;
-    
-}
+#mainmain {  
+    position: relative;
+ }
 
 #main {
     width: 1000vw;
-    display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #search,
@@ -29,6 +32,6 @@
 #projects,
 #contact {
     display: none;
-    width: calc(100vw - 15px);
+    width: 90%;
     position: absolute;
 }
