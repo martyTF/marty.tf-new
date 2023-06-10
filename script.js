@@ -1,3 +1,27 @@
+
+function setCookie(cname, cvalue, exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  let expires = "expires=" + d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+};
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+};
+
 window.addEventListener('load', function () {
   var loadfunc = document.getElementsByClassName("box-shower");
   for (var i = 0; i < loadfunc.length; i++) {
@@ -9,7 +33,15 @@ window.addEventListener('load', function () {
   setTimeout(function () {
     document.getElementById('searchbox').focus();
   }, 200);
+  var darklight = getCookie("darklightc");
+  if (darklight == 1) {
+    button_darkmode();
+  }
+  else {
+    button_lightmode();
+  };
 });
+
 
 
 function shiftcontent(content) {
@@ -51,6 +83,7 @@ function button_lightmode() {
   for (var i = 0, max = linkborders.length; i < max; i++) {
     linkborders[i].style.borderColor = "#fbf1c7";
   };
+  setCookie("darklightc", 0, 30)
 };
 
 
@@ -70,4 +103,5 @@ function button_darkmode() {
   for (var i = 0, max = linkborders.length; i < max; i++) {
     linkborders[i].style.borderColor = "#282828";
   };
-};
+  setCookie("darklightc", 1, 30);
+}
