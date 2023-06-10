@@ -1,15 +1,15 @@
 #header {
-    animation: appearheader 0.5s ease;
+    animation: appearheader 1s ease;
     height: 90px;
 }
 
 #linksrow {
-    animation: appearlinksrow 0.5s ease;
+    animation: appearlinksrow 1s ease;
     height: 70px;
 }
 
 .footnote {
-    animation: appearfooter 0.5s ease;
+    animation: appearcontent 1s ease;
 }
 
 #mainmain {  
@@ -38,7 +38,10 @@
     background-color: #ffffff00;
 }
 
-#darkmode,
+#darkmode
+{
+    display:none;
+}
 #lightmode {
     display:inline;
 }

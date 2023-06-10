@@ -2,7 +2,9 @@
     0% {
         transform: translateY(-100vw);
     }
-
+    50% {
+        transform: translateY(-100vw);
+    }
     100% {
         transform: translateY(0);
     }
@@ -13,7 +15,9 @@
         transform: translateX(-100vw);
 
     }
-
+    50% {
+        transform: translateX(0);
+    }
     100% {
         transform: translateX(0);
     }
@@ -24,7 +28,9 @@
     0% {
         transform: translateX(100vw);
     }
-
+    50% {
+        transform: translateX(0);
+    }
     100% {
         transform: translateX(0);
     }
@@ -48,7 +54,9 @@
     0% {
         transform: translate(-100vw, 100vw);
     }
-
+    50% {
+        transform: translate(0, 100vw);
+    }
     100% {
         transform: translate(0, 0);
     }
