@@ -34,11 +34,11 @@ window.addEventListener('load', function () {
     document.getElementById('searchbox').focus();
   }, 200);
   var darklight = getCookie("darklightc");
-  if (darklight == 1) {
-    button_darkmode();
+  if (darklight == 0) {
+    button_lightmode();
   }
   else {
-    button_lightmode();
+    button_darkmode();
   };
 });
 
@@ -47,7 +47,7 @@ window.addEventListener('load', function () {
 function shiftcontent(content) {
   var x = document.getElementsByClassName("box-shower");
   for (var i = 0; i < x.length; i++) {
-    x[i].style.animation = "disappearcontent 1s ease";
+    x[i].style.animation = "disappearcontent 1s ease-in";
   };
   document.getElementById(content).style.display = "block";
   document.getElementById(content).style.animation = "appearcontent 1s ease";
