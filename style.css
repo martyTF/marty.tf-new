@@ -9,7 +9,7 @@
 
 .search-box input {
     outline: none;
-    width: calc(80% - 150px);
+    width: calc(100% - 150px);
     height: 30px;
 }
 

@@ -1,37 +1,27 @@
 #header {
     animation: appearheader 0.5s ease;
+    height: 70px;
 }
 
 #linksrow {
     animation: appearlinksrow 0.5s ease;
+    height: 70px;
 }
 
-<<<<<<< HEAD
 .footnote {
     animation: appearfooter 0.5s ease;
-=======
-#footnote {
-    animation: appearbottom 0.5s ease;
->>>>>>> 467b57f (various fixes)
 }
 
 #mainmain {  
     position: relative;
+    height: calc(100vh - 500px);
  }
 
 #main {
-    width: 1000vw;
-    overflow: hidden;
+    width: 100%;
 }
 
-#search,
-#services,
-#about,
-#dotfiles,
-#server,
-#projects,
-#contact {
-    display: none;
-    width: 90%;
+.box-shower {
+    width: 100%;
     position: absolute;
 }

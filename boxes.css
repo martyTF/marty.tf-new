@@ -1,14 +1,10 @@
 @media only screen and (max-width: 860px) {
     .box-wrapper {
-        display: flexbox;
+        display: block;
     }
 
     .headersplit {
         display: block;
-    }
-
-    .box {
-        margin: 20px;
     }
 
     #contact_logobox {
@@ -23,23 +19,19 @@
 @media only screen and (min-width: 861px) {
     .box-wrapper {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .headersplit {
         display: none;
     }
 
-    .box {
-        margin: 10px 20px;
-    }
-
     #contact_logobox {
-        max-width: 35vw;
+        max-width: 35%;
     }
 
     .contact_logo {
-        max-height: 40vw;
+        max-height: 100%;
         min-width: 200px;
     }
 }
@@ -55,7 +47,8 @@
     border-color: #689d6a;
     border-radius: 5px;
     padding: 20px;
-    flex-basis: calc(100% - 20px);
+    margin: 20px;
+    flex-basis: 100%;
 }
 
 .box a {
@@ -63,7 +56,6 @@
     text-decoration: none;
     display: inline-flex;
     padding: 0.5% 0.5%;
-    margin: 0.2% 0.2%;
     border: solid;
     border-radius: 10px;
     border-color: #282828;
