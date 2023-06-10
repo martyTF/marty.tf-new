@@ -37,9 +37,12 @@ window.addEventListener('load', function () {
   if (darklight == 0) {
     button_lightmode();
   }
-  else {
+  else if (darklight == 1) {
     button_darkmode();
-  };
+  }
+  else {
+    return "";
+  }
 });
 
 
