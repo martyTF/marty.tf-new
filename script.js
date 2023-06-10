@@ -8,7 +8,11 @@ window.addEventListener('load', function () {
   setTimeout(function () {
     document.getElementById('searchbox').focus();
   }, 200);
+
+  document.getElementById("darkmode").style.display = "none";
+  document.getElementById("lightmode").style.display = "block";
 });
+
 
 
 function button_search() {
@@ -125,4 +129,43 @@ function button_contact() {
       document.getElementById("contact").style.display = "block";
     };
   }, 500);
+};
+
+
+
+function button_lightmode() {
+  document.getElementById("darkmode").style.display = "block";
+  document.getElementById("lightmode").style.display = "none";
+  document.body.style.backgroundColor = "#f9f5d7";
+  var fonts = document.getElementsByTagName("*");
+  for (var i = 0, max = fonts.length; i < max; i++) {
+    fonts[i].style.color = "#3c3836";
+  };
+  var boxes = document.getElementsByClassName("box");
+  for (var i = 0, max = boxes.length; i < max; i++) {
+    boxes[i].style.backgroundColor = "#fbf1c7"
+  };
+  var linkborders = document.getElementsByClassName("link");
+  for (var i = 0, max = linkborders.length; i < max; i++) {
+    linkborders[i].style.borderColor = "#fbf1c7";
+  };
+};
+
+
+function button_darkmode() {
+  document.getElementById("darkmode").style.display = "none";
+  document.getElementById("lightmode").style.display = "block";
+  document.body.style.backgroundColor = "#1d1d1d";
+  var fonts = document.getElementsByTagName("*");
+  for (var i = 0, max = fonts.length; i < max; i++) {
+    fonts[i].style.color = "#ebdbb2";
+  };
+  var boxes = document.getElementsByClassName("box");
+  for (var i = 0, max = boxes.length; i < max; i++) {
+    boxes[i].style.backgroundColor = "#282828"
+  };
+  var linkborders = document.getElementsByClassName("link");
+  for (var i = 0, max = linkborders.length; i < max; i++) {
+    linkborders[i].style.borderColor = "#282828";
+  };
 };

@@ -13,26 +13,29 @@
 
 <!-- Body -->
 
-<body>
+<body id="body">
 
   <!-- Header Bar -->
   <div id="header" class="box">
-      <h1>
-        <a href="/">Marty.TF</a>
-      </h1>
-    </div>
+    <h1>
+      <a class="link" href="/">Marty.TF</a>
+    </h1>
+
+  </div>
 
   <!-- Links Row -->
   <div id="linksrow" div class="box">
-      <a href="#" onclick="button_search()">Search</a>
-      <a href="#" onclick="button_services()">Services</a>
-      <a href="#" onclick="button_about()">About</a>
-      <br class="headersplit">
-      <a href="#" onclick="button_dotfiles()">Dotfiles</a>
-      <!--      <a href="#" onclick="button_server()">Server Setup</a> -->
-      <a href="#" onclick="button_projects()">Projects</a>
-      <a href="#" onclick="button_contact()">Contact</a>
-    </div>
+    <a class="link" href="#" onclick="button_search()">Search</a>
+    <a class="link" href="#" onclick="button_services()">Services</a>
+    <a class="link" href="#" onclick="button_about()">About</a>
+    <br class="headersplit">
+    <a class="link" href="#" onclick="button_dotfiles()">Dotfiles</a>
+    <!--      <a class="link" href="#" onclick="button_server()">Server Setup</a> -->
+    <a class="link" href="#" onclick="button_projects()">Projects</a>
+    <a class="link" href="#" onclick="button_contact()">Contact</a>
+    <a class="link" href="#" id="lightmode" onclick="button_lightmode()">Light Mode</a>
+    <a class="link" href="#" id="darkmode" onclick="button_darkmode()">Dark Mode</a>
+  </div>
 
 
   <!-- Content -->
@@ -48,12 +51,13 @@
               <input id="searchbox" class="box" type="text" name="q" placeholder="Search the web">
               <button form="search-box" type="submit" style="display:none">Go</button>
             </form>
-            <p>Powered by <a href="https://ecosia.org">Ecosia</a>, the search engine that plants trees.</p>
+            <p>Powered by <a class="link" href="https://ecosia.org">Ecosia</a>, the search engine that plants trees.</p>
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -63,18 +67,19 @@
         <div class="box-wrapper">
           <div class="box">
             <h3>Social Media Frontends</h3><br>
-            <a href="https://watch.marty.tf">Invidious (Youtube)</a> <br>
-            <a href="https://libreddit.marty.tf">libReddit (Reddit)</a>
+            <a class="link" href="https://watch.marty.tf">Invidious (Youtube)</a> <br>
+            <a class="link" href="https://libreddit.marty.tf">libReddit (Reddit)</a>
           </div>
           <div class="box">
             <h3>Selfhosted Services</h3><br>
-            <a href="https://cloud.marty.tf">Nextcloud (Cloud)</a> <br>
-            <a href="https://fedi.marty.tf">GoToSocial (Fediverse)</a>
+            <a class="link" href="https://cloud.marty.tf">Nextcloud (Cloud)</a> <br>
+            <a class="link" href="https://fedi.marty.tf">GoToSocial (Fediverse)</a>
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -86,15 +91,16 @@
             Personal website and hosting platform of multiple instance based web services. <br>
             Every line of code has been written by a human. No Language Learning Models have been used to steal
             copy-righted
-            and unlicensed code, but asking general questions about css and js were translated over to this website.
+            and unlicensed code.
             <br> <br>
             As I am not a webdev, this will be very barebones, and will be an aesthetic disaster. <br> <br>
             Enjoy.
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -103,14 +109,16 @@
       <div class="box-shower" id="dotfiles">
         <div class="box-wrapper">
           <div class="box">
-            Download the current Dotfiles <a href="https://github.com/martyTF/dotfiles/archive/refs/heads/master.zip">
+            Download the current Dotfiles <a class="link"
+              href="https://github.com/martyTF/dotfiles/archive/refs/heads/master.zip">
               here </a> <br>
-            Link to Dotfiles <a href="https://github.com/martyTF/dotfiles">Github Repo</a>
+            Link to Dotfiles <a class="link" href="https://github.com/martyTF/dotfiles">Github Repo</a>
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -123,8 +131,9 @@
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -135,14 +144,15 @@
           <div class="box" id="projectbox">
             <h2>School Projects</h2>
             <div class="projects">
-              <a href="/projects/glb11c_cybersec/">Präsentation Cybersecurity GLB11C</a> <br>
-              <a href="/projects/pflanzenbuch/" style="display: none;">Pflanzenbuch</a>
+              <a class="link" href="/projects/glb11c_cybersec/">Präsentation Cybersecurity GLB11C</a> <br>
+              <a class="link" href="/projects/pflanzenbuch/" style="display: none;">Pflanzenbuch</a>
             </div>
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -153,7 +163,7 @@
           <div class="box" id="contact_logobox">
             <img class="contact_logo" src="/src/marty_narklos.png" alt="A drawing of me, by Narklos">
             <br> <br>
-            Headshot drawn by <a href="https://linktr.ee/Narklos">Narklos</a>
+            Headshot drawn by <a class="link" href="https://linktr.ee/Narklos">Narklos</a>
           </div>
           <div class="box" id="contactbox">
             <div class="box-wrapper">
@@ -191,8 +201,9 @@
           </div>
         </div>
         <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a> |
-            <a href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
+              Repo</a> |
+            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -200,7 +211,7 @@
 
     </div>
 
-
+  </div>
 </body>
 
 </html>
