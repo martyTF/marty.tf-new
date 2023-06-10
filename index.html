@@ -15,16 +15,22 @@
 
 <body id="body">
 
+  <!-- Light/Dark Mode-->
+
+
   <!-- Header Bar -->
   <div id="header" class="box">
     <h1>
       <a class="link" href="/">Marty.TF</a>
     </h1>
-
+    <div class="box" id="lightdark">
+      <a class="link" href="#" id="lightmode" onclick="button_lightmode()">🌞</a>
+      <a class="link" href="#" id="darkmode" onclick="button_darkmode()">🌑</a>
+    </div>
   </div>
 
   <!-- Links Row -->
-  <div id="linksrow" div class="box">
+  <div id="linksrow" class="box">
     <a class="link" href="#" onclick="button_search()">Search</a>
     <a class="link" href="#" onclick="button_services()">Services</a>
     <a class="link" href="#" onclick="button_about()">About</a>
@@ -33,8 +39,6 @@
     <!--      <a class="link" href="#" onclick="button_server()">Server Setup</a> -->
     <a class="link" href="#" onclick="button_projects()">Projects</a>
     <a class="link" href="#" onclick="button_contact()">Contact</a>
-    <a class="link" href="#" id="lightmode" onclick="button_lightmode()">Light Mode</a>
-    <a class="link" href="#" id="darkmode" onclick="button_darkmode()">Dark Mode</a>
   </div>
 
 

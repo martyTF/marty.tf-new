@@ -10,7 +10,7 @@ window.addEventListener('load', function () {
   }, 200);
 
   document.getElementById("darkmode").style.display = "none";
-  document.getElementById("lightmode").style.display = "block";
+  document.getElementById("lightmode").style.display = "inline";
 });
 
 
@@ -134,7 +134,7 @@ function button_contact() {
 
 
 function button_lightmode() {
-  document.getElementById("darkmode").style.display = "block";
+  document.getElementById("darkmode").style.display = "inline";
   document.getElementById("lightmode").style.display = "none";
   document.body.style.backgroundColor = "#f9f5d7";
   var fonts = document.getElementsByTagName("*");
@@ -154,7 +154,7 @@ function button_lightmode() {
 
 function button_darkmode() {
   document.getElementById("darkmode").style.display = "none";
-  document.getElementById("lightmode").style.display = "block";
+  document.getElementById("lightmode").style.display = "inline";
   document.body.style.backgroundColor = "#1d1d1d";
   var fonts = document.getElementsByTagName("*");
   for (var i = 0, max = fonts.length; i < max; i++) {
