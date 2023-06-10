@@ -24,4 +24,5 @@
 .box-shower {
     width: 100%;
     position: absolute;
+    display: none;
 }
