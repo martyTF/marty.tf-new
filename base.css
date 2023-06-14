@@ -5,9 +5,9 @@
 
 * {
   font-family: "Code Mono", monospace;
-  color: #ebdbb2;
+  color: var(--mtf-font-color);
 }
 
 body {
-  background-color: #1d1d1d;
+  background-color: var(--mtf-background-color);
 }

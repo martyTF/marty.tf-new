@@ -40,11 +40,11 @@
 
 
 .box {
-    color: #ebdbb2;
+    color: var(--mtf-font-color);
     text-align: center;
-    background-color: #282828;
+    background-color: var(--mtf-background-2-color);
     border-style: solid;
-    border-color: #689d6a;
+    border-color: var(--mtf-accent-color);
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
@@ -52,21 +52,21 @@
 }
 
 .box a {
-    color: #ebdbb2;
+    color: var(--mtf-font-color);
     text-decoration: none;
     display: inline-flex;
     padding: 0.5% 0.5%;
     border: solid;
     border-radius: 10px;
-    border-color: #282828;
+    border-color: var(--mtf-background-2-color);
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
 
 .box a:visited {
-    color: #ebdbb2;
+    color: var(--mtf-font-color);
 }
 
 .box a:hover {
-    background-color: #689d6a;
+    background-color: var(--mtf-accent-color);
 }

@@ -41,12 +41,14 @@
 @keyframes disappearcontent {
     0% {
         transform: translateX(0);
-        display: block;
+    }
+
+    50% {
+        transform: translateX(-100vw);
     }
 
     100% {
         transform: translateX(-100vw);
-        display: none;
     }
 }
 

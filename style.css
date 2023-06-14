@@ -19,9 +19,9 @@
 
 .contact_logo {
     max-width: 100%;
-    background-color: #282828;
+    background-color: var(--mtf-background-2-color);
     border-style: solid;
-    border-color: #689d6a;
+    border-color: var(--mtf-accent-color);
     border-radius: 5px;
     margin: 10px 0px 0px 0px;
 }
