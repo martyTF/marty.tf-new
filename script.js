@@ -72,10 +72,10 @@ function shiftcontent(content) {
 function button_lightmode() {
   document.getElementById("darkmode").style.display = "inline";
   document.getElementById("lightmode").style.display = "none";
-  document.body.style.setProperty('--mtf-background-color', "#f9f5d7");
-  document.body.style.setProperty('--mtf-font-color', "#3c3836");
-  document.body.style.setProperty('--mtf-background-2-color', "#fbf1c7");
-  document.body.style.setProperty('--mtf-accent-color', "#689d6a");
+  document.body.style.setProperty('--mtf-background-color', "#eff1f5");
+  document.body.style.setProperty('--mtf-font-color', "#4c4f69");
+  document.body.style.setProperty('--mtf-background-2-color', "#e6e9ef");
+  document.body.style.setProperty('--mtf-accent-color', "#dc8a78");
   setCookie("darklightc", 0, 30)
 };
 
@@ -83,9 +83,9 @@ function button_lightmode() {
 function button_darkmode() {
   document.getElementById("darkmode").style.display = "none";
   document.getElementById("lightmode").style.display = "inline";
-  document.body.style.setProperty('--mtf-background-color', "#1d1d1d");
-  document.body.style.setProperty('--mtf-font-color', "#ebdbb2");
-  document.body.style.setProperty('--mtf-background-2-color', "#282828");
-  document.body.style.setProperty('--mtf-accent-color', "#689d6a");
+  document.body.style.setProperty('--mtf-background-color', "#1e1e2e");
+  document.body.style.setProperty('--mtf-font-color', "#cdd6f4");
+  document.body.style.setProperty('--mtf-background-2-color', "#181825");
+  document.body.style.setProperty('--mtf-accent-color', "#f5e0dc");
   setCookie("darklightc", 1, 30);
 }
