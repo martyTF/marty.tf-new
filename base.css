@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Ubuntu";
-  src: url("https://marty.tf/src/UbuntuNerdFont-Regular.ttf");
+  font-family: "Mono Code";
+  src: url("https://marty.tf/src/FiraCodeNerdFont-Regular.ttf");
 }
 
 * {
-  font-family: "Ubuntu";
+  font-family: "Mono Code";
   color: var(--mtf-font-color);
 }
 
