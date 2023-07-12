@@ -72,20 +72,22 @@ function shiftcontent(content) {
 function button_lightmode() {
   document.getElementById("darkmode").style.display = "inline";
   document.getElementById("lightmode").style.display = "none";
-  document.body.style.setProperty('--mtf-background-color', "#eff1f5");
+  document.body.style.setProperty('--mtf-background-color', "#eff1f5df");
   document.body.style.setProperty('--mtf-font-color', "#4c4f69");
-  document.body.style.setProperty('--mtf-background-2-color', "#e6e9ef");
+  document.body.style.setProperty('--mtf-background-2-color', "#e6e9efdf");
   document.body.style.setProperty('--mtf-accent-color', "#dc8a78");
-  setCookie("darklightc", 0, 30)
+  document.body.style.setProperty('--mtf-background-image', "url('src/Clearnight.jpg')");
+  setCookie("darklightc", 0, 30);
 };
 
 
 function button_darkmode() {
   document.getElementById("darkmode").style.display = "none";
   document.getElementById("lightmode").style.display = "inline";
-  document.body.style.setProperty('--mtf-background-color', "#1e1e2e");
+  document.body.style.setProperty('--mtf-background-color', "#1e1e2edf");
   document.body.style.setProperty('--mtf-font-color', "#cdd6f4");
-  document.body.style.setProperty('--mtf-background-2-color', "#181825");
+  document.body.style.setProperty('--mtf-background-2-color', "#181825df");
   document.body.style.setProperty('--mtf-accent-color', "#f5e0dc");
+  document.body.style.setProperty('--mtf-background-image', "url('src/Clearday.jpg')")
   setCookie("darklightc", 1, 30);
 }

@@ -58,7 +58,7 @@
     padding: 0.5% 0.5%;
     border: solid;
     border-radius: 10px;
-    border-color: var(--mtf-background-2-color);
+    border-color: #ffffff00;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
