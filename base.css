@@ -10,7 +10,7 @@
 
 body {
   background-color: var(--mtf-background-color);
-  background-image: var(--mtf-background-image);
+  /* background-image: var(--mtf-background-image); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
