@@ -36,6 +36,7 @@
 }
 #lightdark a:hover {
     background-color: #ffffff00;
+    color: var(--mtf-font-color);
 }
 
 #darkmode
