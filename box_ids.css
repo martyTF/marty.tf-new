@@ -46,3 +46,25 @@
 #lightmode {
     display:inline;
 }
+
+#service_icons {
+    margin-left: 25%;
+    width: 50%;
+    position: relative;
+    align-self: right;
+}
+
+#service_icon {
+    color: var(--mtf-font-color);
+    font-size: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    text-align: center;
+    background-color: var(--mtf-background-2-color);
+    border-style: solid;
+    border-color: var(--mtf-accent-color);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
