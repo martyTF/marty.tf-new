@@ -48,14 +48,15 @@ function shiftcontent(content) {
   for (var i = 0; i < x.length; i++) {
     x[i].style.animation = "disappearcontent 1s ease";
   };
-  document.getElementById(content).style.display = "block";
+  document.getElementById(content).style.height = "100px";
   document.getElementById(content).style.animation = "appearcontent 1s ease";
   setTimeout(function () {
     var x = document.getElementsByClassName("box-shower");
     for (var i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
+      x[i].style.maxHeight = "0px";
+      x[i].style.height = "0px";
     };
-    document.getElementById(content).style.display = "block";
+    document.getElementById(content).style.height = "100px";
   }, 500);
   if (content == "search") {
     setTimeout(function () {
@@ -90,4 +91,13 @@ function button_darkmode() {
   document.body.style.setProperty('--mtf-accent-color', "#f5e0dc");
   document.body.style.setProperty('--mtf-background-image', "url('src/Clearday.jpg')")
   setCookie("darklightc", 1, 30);
+}
+
+
+function bookmarks() {
+  document.getElementById("bookmarks").style.display = "block";
+}
+
+function bookmarks_close() {
+  document.getElementById("bookmarks").style.display = "none";
 }

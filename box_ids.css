@@ -23,8 +23,6 @@
 
 .box-shower {
     width: 100%;
-    position: absolute;
-    display: none;
 }
 
 #lightdark {
@@ -67,4 +65,22 @@
     padding: 20px;
     margin: 20px;
     transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#service_icon:hover {
+    color: var(--mtf-background-2-color);
+    background-color: var(--mtf-accent-color);
+}
+
+
+#bookmarks {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 60%;
+    min-width: 60%;
+    max-width: 60%;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
