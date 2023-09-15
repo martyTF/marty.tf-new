@@ -91,12 +91,3 @@ function button_darkmode() {
   document.body.style.setProperty('--mtf-background-image', "url('src/Clearday.jpg')");
   setCookie("darklightc", 1, 30);
 }
-
-
-function bookmarks() {
-  document.getElementById("bookmarks").style.display = "block";
-}
-
-function bookmarks_close() {
-  document.getElementById("bookmarks").style.display = "none";
-}
