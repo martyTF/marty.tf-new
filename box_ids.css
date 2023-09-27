@@ -45,6 +45,10 @@
     color: var(--mtf-font-color);
 }
 
+#search {
+    animation: appearcontent 1s ease;
+}
+
 #darkmode
 {
     display:none;
@@ -59,6 +63,7 @@
     width: 50%;
     position: relative;
     align-self: right;
+    margin-right: 25%;
 }
 
 a.service_icon {

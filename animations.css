@@ -26,13 +26,13 @@
 
 @keyframes appearcontent {
     0% {
-        transform: scaleY(0%);
+        transform: translateX(100vw);
     }
     50% {
-        transform: scaleY(100%);
+        transform: translateX(0);
     }
     100% {
-        transform: scaleY(100%);
+        transform: translateX(0);
     }
 }
 
@@ -40,15 +40,15 @@
 
 @keyframes disappearcontent {
     0% {
-        transform: scaleY(100%);
+        transform: translateX(0);
     }
 
     50% {
-        transform: scaleY(0%);
+        transform: translateX(-100vw);
     }
 
     100% {
-        transform: scaleY(0%);
+        transform: translateX(-100vw);
     }
 }
 

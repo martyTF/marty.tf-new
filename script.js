@@ -22,7 +22,7 @@ function getCookie(cname) {
   return "";
 };
 
-window.addEventListener('load', function () {
+function startup() {
   var x = document.getElementsByClassName("box-shower");
   for (var i = 0; i < x.length; i++)
     {
@@ -48,7 +48,7 @@ window.addEventListener('load', function () {
   else {
     return "";
   }
-});
+};
 
 
 
@@ -102,7 +102,7 @@ function toggleld(ld) {
     clrs.setProperty('--mtf-background-image', "url('src/Clearday.jpg')");
     setCookie("darklightc", 1, 30);
   }
-}
+};
 
 function button_lightmode() {
   document.getElementById("darkmode").style.display = "inline";
@@ -125,13 +125,13 @@ function button_darkmode() {
   document.body.style.setProperty('--mtf-accent-color', "#f5e0dc");
   document.body.style.setProperty('--mtf-background-image', "url('src/Clearday.jpg')");
   setCookie("darklightc", 1, 30);
-}
+};
 
 function bookmarks_open() {
   let bmks = document.getElementById("bookmarks");
   bmks.style.display = "block";
   bmks.style.opacity = "1"
-}
+};
 
 function bookmarks_close(){
   let bmks = document.getElementById("bookmarks");
