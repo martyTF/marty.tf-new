@@ -40,7 +40,7 @@
 
 
 .box {
-     color: var(--mtf-font-color);
+    color: var(--mtf-font-color);
     text-align: center;
     background-color: var(--mtf-background-2-color);
     border-style: solid;

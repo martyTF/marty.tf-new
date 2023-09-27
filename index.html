@@ -34,7 +34,7 @@
     <a class="link" href="#" onclick="shiftcontent('about')">About</a>
     <br class="headersplit">
     <!--  <a class="link" href="#" onclick="shiftcontent('dotfiles')">Dotfiles</a> -->
-    <!--      <a class="link" href="#" onclick="shiftcontent('server')">Server Setup</a> -->
+    <!--  <a class="link" href="#" onclick="shiftcontent('server')">Server Setup</a> -->
     <a class="link" href="#" onclick="shiftcontent('projects')">Projects</a>
     <a class="link" href="#" onclick="shiftcontent('contact')">Contact</a>
   </div>
@@ -42,11 +42,12 @@
 
   <!-- Content -->
   <div id="mainmain">
-
-
     <div id="main">
 
       <div class="box-shower" id="search">
+        <div class="box" id="bookmarks">
+          <a id="bookmarks_close" href="#" onclick="bookmarks_close()"> close </a>
+        </div>
         <div class="box-wrapper">
           <div class="box">
             <form id="search-box" action="https://www.ecosia.org/search" method="get" class="search-box">
@@ -55,21 +56,15 @@
             </form>
             <p>Powered by <a class="link" href="https://ecosia.org">Ecosia</a>, the search engine that plants trees.</p>
             <div class="box-wrapper" id="service_icons">
-              <a id="service_icon" href="https://watch.marty.tf">  </a>
-              <a id="service_icon" href="https://libreddit.marty.tf">  </a>
-              <a id="service_icon" href="https://cloud.marty.tf">  </a>
-              <a id="service_icon" href="https://elk.zone">  &f0ad1 </a>
+              <a class="service_icon" href="https://watch.marty.tf">  </a>
+              <a class="service_icon" href="https://libreddit.marty.tf">  </a>
+              <a class="service_icon" href="https://cloud.marty.tf">  </a>
+              <a class="service_icon" href="https://elk.zone">   </a>
+              <a class="service_icon" href="#" onclick="bookmarks_open()">  </a>
             </div>
           </div>
         </div>
-        <div class="box-wrapper footnote" id="searchfootnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
-          </div>
-        </div>
       </div>
-
 
       <div class="box-shower" id="services">
         <div class="box-wrapper">
@@ -85,14 +80,7 @@
             <a class="link" href="https://matrix.marty.tf">Synapse (Matrix)</a>
           </div>
         </div>
-        <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
-          </div>
-        </div>
       </div>
-
 
       <div class="box-shower" id="about">
         <div class="box-wrapper">
@@ -112,14 +100,7 @@
             </ul>
           </div>
         </div>
-        <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
-          </div>
-        </div>
       </div>
-
 
       <div class="box-shower" id="dotfiles">
         <div class="box-wrapper">
@@ -128,12 +109,6 @@
               href="https://github.com/martyTF/dotfiles/archive/refs/heads/master.zip">
               here </a> <br>
             Link to Dotfiles <a class="link" href="https://github.com/martyTF/dotfiles">Github Repo</a>
-          </div>
-        </div>
-        <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -145,14 +120,7 @@
             <h1>WIP</h1>
           </div>
         </div>
-        <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
-          </div>
-        </div>
       </div>
-
 
       <div class="box-shower" id="projects">
         <div class="box-wrapper">
@@ -163,12 +131,6 @@
               <br>
               <a class="link" href="/projects/pflanzenbuch/" style="display: none;">Pflanzenbuch</a>
             </div>
-          </div>
-        </div>
-        <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
           </div>
         </div>
       </div>
@@ -184,42 +146,28 @@
           <div class="box-wrapper cybersec">
             <div class="box">
               <h3>Privacy Tools</h3>
-
               <a href="https://www.amiunique.org/fp">Ist dein Browser-Fingerprint einzigartig? Wenn ja, kann dich jede
                 Website identifizieren</a><br>
-
               <a href="https://haveibeenpwned.com/">Email-Adressen nach Passwort-Leaks checken</a><br>
-
               <a href="https://tosdr.org/">Zusammenfassungen vom "Kleingedruchten"</a><br>
-
               <a href="https://vault.bitwarden.com/#/register">Bester Passwort-Manager</a><br>
-
             </div>
             <div class="box">
               <h3>Social Media Frontends</h3>
-
-              <a href="https://nitter.ir/">Nitter (Twitter)</a><br>
-
+              <a href="https://nitter.net/">Nitter (Twitter)</a><br>
               <a href="https://invidious.kavin.rocks">Invidious (YouTube)</a><br>
-
               <a href="https://libreddit.marty.tf/">libReddit (Reddit)</a><br>
-
               <a href="https://github.com/libredirect/libredirect#readme">App, welche automatisch zu diesen Diensten
                 weiterleitet</a><br>
-
               <a
                 href="https://github.com/digitalblossom/alternative-frontends/blob/main/README.md#alternative-frontends">Volle
                 Liste aller Social Media Frontends</a><br>
-
             </div>
             <div class="box">
               <h3>Fediverse</h3>
-
               <a href="https://joinmastodon.org/">Homepage der größten Fediverse-Platform</a><br>
-
               <a href="https://mastodon.social">Größter Mastodon Server; guter Startpunkt, um das Fediverse
                 kennenzulernen</a><br>
-
               <a href="https://fedi.tips/">Benutzerfreundlicher Guide für das Fediverse</a><br>
             </div>
           </div>
@@ -268,18 +216,18 @@
             </div>
           </div>
         </div>
-        <div class="box-wrapper footnote">
-          <div class="box"> &copy; 2023 Marty.TF | <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub
-              Repo</a> |
-            <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
-          </div>
-        </div>
       </div>
-
-
     </div>
-
   </div>
+
+  <div class="box footnote">
+    © 2023 Marty.TF
+    |
+    <a class="link" href="https://github.com/martyTF/marty.tf-new">GitHub Repo</a>
+    |
+    <a class="link" href="https://martytf.github.io/marty.tf-new/">Indev Preview</a>
+  </div>
+
 </body>
 
 </html>

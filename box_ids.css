@@ -9,23 +9,28 @@
 }
 
 .footnote {
-    animation: appearcontent 1s ease;
+    animation: appearfooter 1s ease;
+    position: relative;
+    margin-top: 1%;
 }
 
 #mainmain {  
     position: relative;
-    height: calc(100vh - 500px);
  }
 
 #main {
     width: 100%;
+    position: relative;
 }
 
 .box-shower {
     width: 100%;
-    position: absolute;
-    display: none;
+    height: 0%;
+    position: relative;
+    overflow: hidden;
+    transition: height 0.5s ease;
 }
+
 
 #lightdark {
     position: absolute;
@@ -56,12 +61,13 @@
     align-self: right;
 }
 
-#service_icon {
+a.service_icon {
     color: var(--mtf-font-color);
     font-size: 30px;
     min-width: 30px;
     min-height: 30px;
     text-align: center;
+    text-justify: auto;
     background-color: var(--mtf-background-2-color);
     border-style: solid;
     border-color: var(--mtf-accent-color);
@@ -69,4 +75,22 @@
     padding: 20px;
     margin: 20px;
     transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#bookmarks {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 60%;
+    height: calc(auto + 20%);
+    position: absolute;
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+bookmarks_close {
+    left: 20px;
 }
