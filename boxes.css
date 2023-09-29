@@ -101,11 +101,6 @@
     margin-right: 25%;
 }
 
-#hdrbx1,
-#hdrbx2 {
-    border: none;
-}
-
 a.service_icon {
     color: var(--mtf-font-color);
     font-size: 30px;
@@ -169,6 +164,15 @@ bookmarks_close {
         display: none;
     }
 
+    #hdrbx2 {
+        border: none;
+    }
+
+    #hdrbx1 {
+        display: none;
+    }
+
+
 }
 
 @media only screen and (min-width: 861px) {
@@ -193,6 +197,13 @@ bookmarks_close {
     a.bmks {
         display: block;
     }
+
+
+#hdrbx1,
+#hdrbx2 {
+    border: none;
+}
+
 }
 
 
