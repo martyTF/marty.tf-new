@@ -18,9 +18,13 @@
 
   <!-- Header Bar -->
   <div id="header" class="box">
-    <h1>
-      <a class="link" href="/">Marty.TF</a>
-    </h1>
+    <div class="box" id="hdrbx1">
+    </div>
+    <div class="box" id="hdrbx2">
+      <h1>
+        <a class="link" href="/">Marty.TF</a>
+      </h1>
+    </div>
     <div class="box" id="lightdark" style="background-color: #ffffff00">
       <a class="link" href="#" id="lightmode" onclick="button_lightmode()">&nbsp;</a>
       <a class="link" href="#" id="darkmode" onclick="button_darkmode()">&nbsp;</a>
@@ -29,14 +33,14 @@
 
   <!-- Links Row -->
   <div id="linksrow" class="box">
-    <a class="link" href="#" onclick="shiftcontent('search')">Search</a>
-    <a class="link" href="#" onclick="shiftcontent('services')">Services</a>
-    <a class="link" href="#" onclick="shiftcontent('about')">About</a>
+    <a class="link" href="javascript:void(0)" onclick="shiftcontent('search')">Search</a>
+    <a class="link" href="javascript:void(0)" onclick="shiftcontent('services')">Services</a>
+    <a class="link" href="javascript:void(0)" onclick="shiftcontent('about')">About</a>
     <br class="headersplit">
     <!--  <a class="link" href="#" onclick="shiftcontent('dotfiles')">Dotfiles</a> -->
     <!--  <a class="link" href="#" onclick="shiftcontent('server')">Server Setup</a> -->
-    <a class="link" href="#" onclick="shiftcontent('projects')">Projects</a>
-    <a class="link" href="#" onclick="shiftcontent('contact')">Contact</a>
+    <a class="link" href="javascript:void(0)" onclick="shiftcontent('projects')">Projects</a>
+    <a class="link" href="javascript:void(0)" onclick="shiftcontent('contact')">Contact</a>
   </div>
 
 
@@ -45,9 +49,6 @@
     <div id="main">
 
       <div class="box-shower" id="search">
-        <div class="box" id="bookmarks">
-          <a id="bookmarks_close" href="#" onclick="bookmarks_close()"> close </a>
-        </div>
         <div class="box-wrapper">
           <div class="box">
             <form id="search-box" action="https://www.ecosia.org/search" method="get" class="search-box">
@@ -56,19 +57,39 @@
             </form>
             <p>Powered by <a class="link" href="https://ecosia.org">Ecosia</a>, the search engine that plants trees.</p>
             <div class="box-wrapper" id="service_icons">
-              <a class="service_icon" href="https://watch.marty.tf">  </a>
-              <a class="service_icon" href="https://libreddit.marty.tf">  </a>
-              <a class="service_icon" href="https://cloud.marty.tf">  </a>
-              <a class="service_icon" href="https://elk.zone">   </a>
-            </div>
-            <div class="box-wrapper">
-              <a class="service_icon" href="#" onclick="bookmarks_open()">  </a>
+              <a class="service_icon bmks" href="https://watch.marty.tf">  </a>
+              <a class="service_icon bmks" href="https://libreddit.marty.tf">  </a>
+              <a class="service_icon bmks" href="https://cloud.marty.tf">  </a>
+              <a class="service_icon bmks" href="https://elk.zone">  </a>
+              <a class="service_icon" href="javascript:void(0)" onclick="bookmarks_open()">  </a>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="box-shower" id="services">
+
+      <div class="box" id="bookmarks">
+          <a id="bookmarks_close" href="javascript:void(0)" onclick="bookmarks_close()"> close </a>
+          <div class="box-wrapper">
+            <div class="box">
+              <h3> <a href="javascript:void(0)" onclick="bmks_exp('bmks_mtf')"> Marty.TF </a> </h3>
+              <div class="box-bmks" id="bmks_mtf">
+                hello
+              </div>
+            </div>
+            <div class="box">
+              <h3> <a href="javasript:void(0)" onclick="bmks_exp('bmks_scl')"> Socials </a> </h3>
+              <div class="box-bmks" id="bmks_scl">
+                bye
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+        <div class="box-shower" id="services">
         <div class="box-wrapper">
           <div class="box">
             <h3>Social Media Frontends</h3><br>

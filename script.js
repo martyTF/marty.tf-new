@@ -66,7 +66,7 @@ function shiftcontent(content) {
   setTimeout(function() {
     contheight = contheight + "px";
     cont.style.height = contheight;
-    cont.overflow = "auto";
+    cont.style.overflow = "auto";
   }, 500);
   if (content == "search") {
     setTimeout(function ()
@@ -133,8 +133,20 @@ function bookmarks_open() {
   bmks.style.opacity = "1"
 };
 
-function bookmarks_close(){
+function bookmarks_close() {
   let bmks = document.getElementById("bookmarks");
   bmks.style.display = "none";
   bmks.style.opacity = "0";
+};
+
+
+function bmks_exp(bmrk) {
+  var bmk = document.getElementById(bmrk);
+  var disp = window.getComputedStyle(bmk).display;
+  if (disp == "none") {
+    bmk.style.display = "block";
+  }
+  else {
+    bmk.style.display = "none";
+  }
 }
